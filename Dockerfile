@@ -1,12 +1,24 @@
-# Tags: latest, 2.1.1-debian-10-r109, 2.1.1, 2-debian-10, 2
+# Tags: latest, 2.1.1-debian-10-r113, 2.1.1, 2-debian-10, 2
 FROM bitnami/influxdb:latest
-FROM bitnami/influxdb:2.1.1-debian-10-r109
+FROM bitnami/influxdb:2.1.1-debian-10-r113
 FROM bitnami/influxdb:2.1.1
 FROM bitnami/influxdb:2-debian-10
 FROM bitnami/influxdb:2
 
 # Tags: _
 FROM bitnami/influxdb:_
+
+# Tags: 2.1.1-debian-10-r112
+FROM bitnami/influxdb:2.1.1-debian-10-r112
+
+# Tags: 2.1.1-debian-10-r111
+FROM bitnami/influxdb:2.1.1-debian-10-r111
+
+# Tags: 2.1.1-debian-10-r110
+FROM bitnami/influxdb:2.1.1-debian-10-r110
+
+# Tags: 2.1.1-debian-10-r109
+FROM bitnami/influxdb:2.1.1-debian-10-r109
 
 # Tags: 2.1.1-debian-10-r108
 FROM bitnami/influxdb:2.1.1-debian-10-r108
@@ -82,27 +94,3 @@ FROM bitnami/influxdb:2.1.1-debian-10-r84
 
 # Tags: 2.1.1-debian-10-r83
 FROM bitnami/influxdb:2.1.1-debian-10-r83
-
-# Tags: 2.1.1-debian-10-r82
-FROM bitnami/influxdb:2.1.1-debian-10-r82
-
-# Tags: 2.1.1-debian-10-r81
-FROM bitnami/influxdb:2.1.1-debian-10-r81
-
-# Tags: 2.1.1-debian-10-r80
-FROM bitnami/influxdb:2.1.1-debian-10-r80
-
-# Tags: 1.8.5-debian-10-r264, 1.8.5, 1-debian-10, 1
-FROM bitnami/influxdb:1.8.5-debian-10-r264
-FROM bitnami/influxdb:1.8.5
-FROM bitnami/influxdb:1-debian-10
-FROM bitnami/influxdb:1
-
-# Tags: 2.1.1-debian-10-r79
-FROM bitnami/influxdb:2.1.1-debian-10-r79
-
-# Tags: 1.8.5-debian-10-r263
-FROM bitnami/influxdb:1.8.5-debian-10-r263
-
-# Tags: 2.1.1-debian-10-r78
-FROM bitnami/influxdb:2.1.1-debian-10-r78
