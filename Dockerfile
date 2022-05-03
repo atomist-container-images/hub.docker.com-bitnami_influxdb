@@ -1,12 +1,15 @@
-# Tags: latest, 2.2.0-debian-10-r20, 2.2.0, 2-debian-10, 2
+# Tags: latest, 2.2.0-debian-10-r21, 2.2.0, 2-debian-10, 2
 FROM bitnami/influxdb:latest
-FROM bitnami/influxdb:2.2.0-debian-10-r20
+FROM bitnami/influxdb:2.2.0-debian-10-r21
 FROM bitnami/influxdb:2.2.0
 FROM bitnami/influxdb:2-debian-10
 FROM bitnami/influxdb:2
 
 # Tags: _
 FROM bitnami/influxdb:_
+
+# Tags: 2.2.0-debian-10-r20
+FROM bitnami/influxdb:2.2.0-debian-10-r20
 
 # Tags: 2.2.0-debian-10-r19
 FROM bitnami/influxdb:2.2.0-debian-10-r19
